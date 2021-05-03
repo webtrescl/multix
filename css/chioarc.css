@@ -42,15 +42,13 @@ body{
 .color-red {
     color: red;
 }
+.color-white {
+    color: white;
+}
 .column_container_text {
-  width: 498px;
-  padding: 0px;
-  margin-top: 70px;
-  line-height: 10px;
+  line-height: 26px;
   color: #4D4D4D;
-  font-weight: 700;
   text-align: left;
-  font-family: Montserrat, sans-serif;
 }
 .column_container_pic {
   float: left;
@@ -212,12 +210,10 @@ body{
     object-fit: contain;
 }
 h2{
-	padding-top: 30px;
 	font-size: 30px;
 	font-weight:700;
-	line-height:20px;
+	line-height:40px;
 	background: transparent;
-	font-family:Montserrat, sans-serif;
 }
 hr {
 	width: 16px;
