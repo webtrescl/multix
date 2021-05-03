@@ -27,6 +27,9 @@ body{
 .font400{
 	font-weight: 400;	
 }
+.font42{
+	font-size:42px;
+}
 .font30{
 	font-size:30px;
 }
@@ -44,6 +47,9 @@ body{
 }
 .color-white {
     color: white;
+}
+.color-gray {
+    color: #4D4D4D;
 }
 .column_container_text {
   line-height: 26px;
