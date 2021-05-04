@@ -42,6 +42,9 @@ body{
 .font12{
 	font-size:12px;
 }
+.lh24{
+	line-height:24px;
+}
 .color-red {
     color: red;
 }
@@ -50,6 +53,12 @@ body{
 }
 .color-gray {
     color: #4D4D4D;
+}
+.vertical-line {
+	display: inline-block;
+  	border-left: 1px solid gray;
+
+  	height: 70px;
 }
 .column_container_text {
   line-height: 26px;
@@ -161,7 +170,6 @@ body{
     text-align: center; 
     font-weight: 700;
   	font-size: 10px;
-    font-family: Montserrat, sans-serif;
 }
 .btn-red:hover{
     background: #FF595A;
@@ -179,15 +187,19 @@ body{
 	width: 185px;
 	height: 52px; 
     background: #FFFFFF;
-    color: #4D4D4D;
+    color: #FFFFFF;
     border: none;
     border-radius: 0px;
     text-align: center; 
     font-weight: 700;
   	font-size: 10px;
-    font-family: Montserrat, sans-serif;
 }
 .btn-white:hover{
+    background: #FFFFFF;
+    color: #4D4D4D;
+    opacity: 0.9;
+}
+.btn-white:visited{
     background: #FFFFFF;
     color: #4D4D4D;
     opacity: 0.9;
