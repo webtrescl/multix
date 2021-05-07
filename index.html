@@ -27,17 +27,20 @@
     </div>
 </div>
 <!-- Hero y Hero invertido -->
-<div class="container">
+<div class="container mt-100 mb-100">
     <div class="row">
-        <div class="col-md-10 offset-md-1" >
+        <div class="col-xl-10 offset-xl-1 col-md-12 offset-md-0" >
             <div class="row">
-                <div class="col-md-6 d-flex justify-content-center font30 flex-column">
+                <div class="col-md-12 col-lg-6 d-flex justify-content-center font30 flex-column">
                     <h2>Alimentación saludable como estilo de vida</h2>
                     <p class="column_container_text font16">Analizando las tendencias de consumo a nivel mundial, desarrollamos <b>productos</b> para distintos estilos de vida. Entregando no solo un salmón de <b>nivel superior</b>, sino una gran experiencia, para compartir momentos inolvidables.</p>
-                    <a href="" class="btn btn-red text-capitalize">VER MÁS<hr color="#ffffff" /></a>
+                    <div class="d-none d-lg-block d-xl-block">
+                        <a href="" class="btn btn-red text-capitalize">VER MÁS<hr></a>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img class="" src="img/image26.jpg">
+                <div class="col-md-12 col-lg-6 text-center">
+                    <img class="img-fluid" src="img/image26.jpg">
+                    <a href="" class="btn btn-red text-capitalize mt-40 d-lg-none d-xl-none">VER MÁS<hr></a>
                 </div>
             </div>
         </div>
@@ -446,138 +449,135 @@
             <p class="font700 font30 mb-40">Gobierno Corporativo</p>
             <p class="font400 font16 lh24 mb-40">Buscamos agregar valor aportando seguridad económica y jurídica en todo lo que hacemos. Tenemos una dirección comprometida con la transparencia, la innovación y los estándares ESG, dando como resultado ser parte de los prestigiosos índices Dow Jones Sustainability Indexes y Coller FAIRR.</p>
         </div>
-    </div>  
-    <div class="row">
-        <div class="col-md-10 offset-md-1 d-flex justify-content-md-center flex-column text-center bg-whitegray">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" role="tablist">
-                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-item nav-link font700 font10 mr-60" id="pills-directorio-tab" data-toggle="pill" href="#pills-directorio" role="tab" aria-controls="pills-directorio" aria-selected="true">DIRECTORIO <hr class="new2"></a>
-                      <a class="nav-item nav-link font700 font10 mr-60 disabled" id="pills-comite-tab" data-toggle="pill" href="#pills-comite" role="tab" aria-controls="pills-comite" aria-selected="false">COMITE DIRECTORES</a>
-                      <a class="nav-item nav-link font700 font10 mr-60" id="pills-ejecutivos-tab" data-toggle="pill" href="#pills-ejecutivos" role="tab" aria-controls="pills-ejecutivos" aria-selected="false">PRINCIPALES EJECUTIVOS</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
     </div>
-    <div class="row tab-content" id="pills-tabContent">
-        <div class="column col-md-10 offset-md-1 d-flex justify-content-md-center flex-column text-center bg-whitegray tab-pane fade active show" id="pills-directorio" role="tabpanel" aria-labelledby="pills-directorio-tab">
-            <div class="row mb-60">
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">José Ramón Gutiérrez Arrivillaga</p>
-                    <p class="font500 font12 mb-10">PRESIDENTE EJECUTIVO</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Martín Borda Mingo</p>
-                    <p class="font500 font12 mb-10">DIRECTOR</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Alberto del Pedregal Labbé</p>
-                    <p class="font500 font12 mb-10">DIRECTOR</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Carlos Pucci Labatut</p>
-                    <p class="font500 font12 mb-10">DIRECTOR INDEPENDIENTE</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
+
+
+
+
+
+
+
+
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-directorio-tab" data-toggle="tab" href="#nav-directorio" role="tab" aria-controls="nav-directorio" aria-selected="true">DIRECTORIO</a>
+        <a class="nav-item nav-link" id="nav-comite-tab" data-toggle="tab" href="#nav-comite" role="tab" aria-controls="nav-comite" aria-selected="false">COMITE DIRECTORES</a>
+        <a class="nav-item nav-link" id="nav-ejecutivos-tab" data-toggle="tab" href="#nav-ejecutivos" role="tab" aria-controls="nav-ejecutivos" aria-selected="false">PRINCIPALES EJECUTIVOS</a>
+    </div>
+</nav>
+<div class="tab-content corporative-goberment" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-directorio" role="tabpanel" aria-labelledby="nav-directorio-tab">
+        <div class="row">
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">José Ramón Gutiérrez Arrivillaga</p>
+                <p class="font500 font12 mb-10">PRESIDENTE EJECUTIVO</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
             </div>
-            <div class="w-100 "></div>
-            <div class="row mb-60">
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Hernán Salvador Goyanes</p>
-                    <p class="font500 font12 mb-10">DIRECTOR INDEPENDIENTE</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Elke Schwarz Kusch</p>
-                    <p class="font500 font12 mb-10">DIRECTOR INDEPENDIENTE</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Rodrigo Pérez Mackenna</p>
-                    <p class="font500 font12 mb-10">DIRECTOR INDEPENDIENTE</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Martín Borda Mingo</p>
+                <p class="font500 font12 mb-10">DIRECTOR</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
             </div>
-        </div>
-        <div class="column col-md-10 offset-md-1 d-flex justify-content-md-center flex-column text-center bg-whitegray tab-pane fade" id="pills-comite" role="tabpanel" aria-labelledby="pills-comite-tab" style="background: pink">
-            asd
-        </div>
-        <div class="column col-md-10 offset-md-1 d-flex justify-content-md-center flex-column text-center bg-whitegray tab-pane fade" id="pills-ejecutivos" role="tabpanel" aria-labelledby="pills-ejecutivos-tab">
-            <div class="row mb-60">
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Cristián Swett Plá</p>
-                    <p class="font500 font12 mb-10">GERENTE GENERAL</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Gino Manríquez Ossandón</p>
-                    <p class="font500 font12 mb-10">GERENTE ADMINISTRACIÓN Y FINANZAS CORPORATIVO</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Ricardo Grunwald Aravena</p>
-                    <p class="font500 font12 mb-10">GERENTE COMERCIAL</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Claudio Vera Silva</p>
-                    <p class="font500 font12 mb-10">GERENTE DE PROCESOS</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Alberto del Pedregal Labbé</p>
+                <p class="font500 font12 mb-10">DIRECTOR</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
             </div>
-            <div class="w-100 "></div>
-            <div class="row mb-60">
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Martin Hepp</p>
-                    <p class="font500 font12 mb-10">GERENTE DE FARMING</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Francisco Lobos Fuentes</p>
-                    <p class="font500 font12 mb-10">GERENTE DE PERSONAS, SUSTENTABILIDAD Y ASUNTOS CORPORATIVOS</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Sebastian Ortega Sepúlveda</p>
-                    <p class="font500 font12 mb-10">GERENTE DE AUDITORÍA</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">José Ramón Gutierrez del Pedregal</p>
-                    <p class="font500 font12 mb-10">GERENTE DE OPTIMIZACIÓN, INNOVACIÓN Y DESARROLLO.</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Carlos Pucci Labatut</p>
+                <p class="font500 font12 mb-10">DIRECTOR INDEPENDIENTE</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
             </div>
-            <div class="w-100 "></div>
-            <div class="row mb-60">
-                <div class="col-md-3 d-flex flex-column text-left">
-                    <img class="" src="img/Rectangle25.png">
-                    <p class="font700 font16 mb-10">Pablo Rubén Bascuñan Serrano</p>
-                    <p class="font500 font12 mb-10">GERENTE DE OPTIMIZACIÓN, INNOVACIÓN Y DESARROLLO.</p>
-                    <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
-                </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Hernán Salvador Goyanes</p>
+                <p class="font500 font12 mb-10">DIRECTOR INDEPENDIENTE</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Elke Schwarz Kusch</p>
+                <p class="font500 font12 mb-10">DIRECTOR INDEPENDIENTE</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Rodrigo Pérez Mackenna</p>
+                <p class="font500 font12 mb-10">DIRECTOR INDEPENDIENTE</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
             </div>
         </div>
     </div>
+    <div class="tab-pane fade" id="nav-comite" role="tabpanel" aria-labelledby="nav-comite-tab">
+        Pendiente
+    </div>
+    <div class="tab-pane fade" id="nav-ejecutivos" role="tabpanel" aria-labelledby="nav-ejecutivos-tab">
+        <div class="row">
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Cristián Swett Plá</p>
+                <p class="font500 font12 mb-10">GERENTE GENERAL</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Gino Manríquez Ossandón</p>
+                <p class="font500 font12 mb-10">GERENTE ADMINISTRACIÓN Y FINANZAS CORPORATIVO</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Ricardo Grunwald Aravena</p>
+                <p class="font500 font12 mb-10">GERENTE COMERCIAL</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Claudio Vera Silva</p>
+                <p class="font500 font12 mb-10">GERENTE DE PROCESOS</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Martin Hepp</p>
+                <p class="font500 font12 mb-10">GERENTE DE FARMING</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Francisco Lobos Fuentes</p>
+                <p class="font500 font12 mb-10">GERENTE DE PERSONAS, SUSTENTABILIDAD Y ASUNTOS CORPORATIVOS</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Sebastian Ortega Sepúlveda</p>
+                <p class="font500 font12 mb-10">GERENTE DE AUDITORÍA</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">José Ramón Gutierrez del Pedregal</p>
+                <p class="font500 font12 mb-10">GERENTE DE OPTIMIZACIÓN, INNOVACIÓN Y DESARROLLO.</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-left mb-40">
+                <img class="mb-15" src="img/Rectangle25.png">
+                <p class="font700 font16 mb-10">Pablo Rubén Bascuñan Serrano</p>
+                <p class="font500 font12 mb-10">GERENTE DE OPTIMIZACIÓN, INNOVACIÓN Y DESARROLLO.</p>
+                <a href="" class="font700 font12">BACKGROUND <img src="img/next.png"></img></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
 </div>
 <!-- Destacado 05 -->
 <div class="container mt-100 mb-100">
