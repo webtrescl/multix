@@ -197,7 +197,8 @@ body{
 .btn-white{
 	display: inline-flex;
   	align-items: center; 
-	width: 185px;
+	width: fit-content;
+	padding: 0 50px;
 	height: 52px; 
     background: #FFFFFF;
     color: #FFFFFF;
@@ -206,6 +207,14 @@ body{
     text-align: center; 
     font-weight: 700;
   	font-size: 10px;
+}
+.btn-white hr {
+    color: #FFFFFF;
+    height: 1px;
+    width: 16px;
+    background: #FFF;
+    opacity: 1;
+    margin-left: 10px;
 }
 .btn-white:hover{
     background: #FFFFFF;
@@ -251,7 +260,7 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 	height: 2px;
-	opacity: 0.5;
+	opacity: 1;
 }
 hr.new1 {
 	width: 1235px;
@@ -322,7 +331,11 @@ ul{
   	font-size: 12px;
     font-family: Montserrat, sans-serif;
 }
-
+.surde{
+	background-image: url("../img/H321.png");
+    background-repeat: no-repeat;
+    height: 550px;
+}
 	 
 .padding{
     display: flex;
