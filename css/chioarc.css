@@ -332,9 +332,11 @@ ul{
     font-family: Montserrat, sans-serif;
 }
 .surde{
-	background-image: url("../img/H321.png");
+    background-image: url(../img/H321.png);
     background-repeat: no-repeat;
     height: 550px;
+    background-size: cover;
+    background-position: center;
 }
 	 
 .padding{
