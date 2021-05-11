@@ -255,6 +255,12 @@ h2{
 	line-height:40px;
 	background: transparent;
 }
+h2.n1{
+	font-size: 20px;
+	font-weight:700;
+	line-height:40px;
+	background: transparent;
+}
 hr {
 	width: 16px;
 	margin-left: auto;
@@ -337,6 +343,17 @@ ul{
     height: 550px;
     background-size: cover;
     background-position: center;
+}
+.susten{
+    background-image: url(../img/image31.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    line-height: 22px;
+}
+.lettersp20{
+	letter-spacing: 2px;
 }
 	 
 .padding{
